@@ -1,6 +1,6 @@
 #!/bin/bash
 clear
-echo -e "\e[4;31m SpeedX Productions !!! \e[0m"
+echo -e "\e[4;31m OFKTR !!! \e[0m"
 echo -e "\e[1;34m Presents \e[0m"
 echo -e "\e[1;32m smsbomb \e[0m"
 echo "Press Enter To Continue"
@@ -17,7 +17,7 @@ apt install python3-lzma
 apt install python3-pip
 pip3 install urllib3
 pip3 install requests
-echo This Script Was Made By SpeedX >update.speedx
+echo This Script Was Made By OFKTR >update.speedx
 echo Requirements Installed....
 echo Press Enter To Continue...
 read upd
@@ -65,7 +65,7 @@ elif [ $ch -eq 3 ];then
 clear
 apt install git -y
 echo -e "\e[1;34m Downloading Latest Files..."
-git clone https://github.com/TheSpeedX/TBomb
+git clone https://github.com/OFKTR/smsbomb
 if [[ -s smsbomb/smsbomb.sh ]];then
 cd smsbomb
 cp -r -f * .. > temp
@@ -84,7 +84,7 @@ exit
 elif [ $ch -eq 4 ];then
 clear
 echo -e "\e[1;32m"
-echo 'Protect List By SpeedX'> protect.xxx
+echo 'Protect List By OFKTR'> protect.xxx
 python3 bomber.py protect
 rm *.xxx >/dev/null 2>&1
 elif [ $ch -eq 5 ];then
@@ -92,7 +92,7 @@ clear
 echo -e "\e[1;33m"
 figlet smsbomb
 echo -e "\e[1;34mCreated By \e[1;34m"
-toilet -f mono12 -F border SpeedX
+toilet -f mono12 -F border OFKTR
 echo  " "
 echo -e "\e[1;32m                   Features\e[1;34m"
 echo "  [+] Unlimited And Super-Fast Bombing"
@@ -102,14 +102,13 @@ echo "  [+] Protection List"
 echo "  [+] Automated Future Updates"
 echo "  [+] Easy To Use And Embed in Code"
 echo -e "\e[1;32m                   Contributors\e[1;33m"
-echo -e "\e[1;33m      [*]  SpeedX   \e[1;31m"
-echo "         [-] Mail At: ggspeedx29@gmail.com"
-echo -e "\e[1;33m      [*]  The Black Hacker Roxstar   \e[1;31m"
-echo "         [-] Ping At: http://wa.me/917600140353"
-echo -e "\e[1;33m      [*]  Rieltar   \e[1;31m"
-echo "         [-] Ping At: https://t.me/Rieltar"
-echo -e "\e[1;33m      [*]  0n1cOn3 (Stefan)   \e[1;31m"
-echo "         [-] Mail At: 0n1cOn3@gmx.ch"
+echo -e "\e[4;31m   ─────█─▄▀█──█▀▄─█─────\e[0m"
+echo -e "\e[1;34m   ────▐▌──────────▐▌────\e[0m"
+echo -e "\e[1;32m   ────█▌▀▄──▄▄──▄▀▐█────\e[0m"
+echo -e "\e[1;32m   ───▐██──▀▀──▀▀──██▌───\e[0m"
+echo -e "\e[1;32m   ──▄████▄──▐▌──▄████▄──\e[0m"
+echo -e "\e[1;32m ☾★      OFKTR      ☾★\e[0m"
+echo -e "\e[1;32m☾★ ☾★ Türksün Aç Ürksün.. ☾★ ☾★	\e[0m"
 echo ""
 echo ""
 echo -e "\e[1;31m This Script is Only For Educational Purposes or To Prank.\e[0m"
